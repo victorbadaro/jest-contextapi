@@ -19,3 +19,12 @@ a {
 button {
 	cursor: pointer;
 }
+
+li + li {
+	margin-top: 8px;
+}
+
+span + button {
+	margin-left: 12px;
+	padding: 2px 8px;
+}
