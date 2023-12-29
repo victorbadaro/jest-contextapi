@@ -7,7 +7,7 @@ function UsersProvider({ children }: UsersProviderProps) {
 	const [users, setUsers] = useState<User[]>([]);
 
 	function addUser(user: User) {
-		setUsers([ ...users, user ]);
+		setUsers([...users, user]);
 	}
 
 	function removeUser(id: string) {

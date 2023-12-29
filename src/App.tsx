@@ -1,6 +1,7 @@
 import { FormEvent, useState } from 'react';
 import { User } from './contexts/UsersContext/types';
 import { useUsers } from './hooks/useUsers';
+
 import './styles/global.css';
 
 export function App() {
